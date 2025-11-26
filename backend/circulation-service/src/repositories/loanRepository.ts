@@ -1,5 +1,5 @@
 import { LoanModel, LoanDocument } from '../../../models/Loan';
-import { Loan } from '@library-system/shared';
+import { Loan } from '../../../../shared';
 
 export class LoanRepository {
   async create(loanData: Omit<Loan, '_id'>): Promise<LoanDocument> {

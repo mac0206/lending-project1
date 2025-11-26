@@ -1,5 +1,5 @@
 import { Document } from 'mongoose';
-import { Item } from '@library-system/shared';
+import { Item } from '../../../../shared';
 import { ItemModel } from '../../../models/Book';
 
 export default class ItemRepository {

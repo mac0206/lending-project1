@@ -1,5 +1,5 @@
 import { MemberModel, MemberDocument } from '../../../models/Member';
-import { Member } from '@library-system/shared';
+import { Member } from '../../../../shared';
 
 export class MemberRepository {
   async create(memberData: Omit<Member, '_id'>): Promise<MemberDocument> {

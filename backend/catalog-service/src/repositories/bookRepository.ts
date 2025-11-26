@@ -1,5 +1,5 @@
 import { ItemModel, ItemDocument } from '../../../models/Book';
-import { Item } from '@library-system/shared';
+import { Item } from '../../../../shared';
 
 export class ItemRepository {
   async create(itemData: Omit<Item, '_id'>): Promise<ItemDocument> {
