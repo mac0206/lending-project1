@@ -1,5 +1,5 @@
 import { LoanRepository } from '../repositories/loanRepository';
-import { Loan } from '@library-system/shared';
+import { Loan } from '../../../../shared';
 import { ApiClient } from '../utils/apiClient';
 
 const CATALOG_SERVICE_URL = process.env.CATALOG_SERVICE_URL || 'http://localhost:3001';

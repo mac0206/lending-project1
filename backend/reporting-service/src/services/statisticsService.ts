@@ -1,4 +1,4 @@
-import { Loan } from '@library-system/shared';
+import { Loan } from '../../../../shared';
 import { ApiClient } from '../utils/apiClient';
 
 const CIRCULATION_SERVICE_URL = process.env.CIRCULATION_SERVICE_URL || 'http://localhost:3002';

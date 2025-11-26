@@ -1,4 +1,4 @@
-import { Member } from '@library-system/shared';
+import { Member } from '../../../../shared';
 import { MemberRepository } from '../repositories/memberRepository';
 
 export default class MemberService {

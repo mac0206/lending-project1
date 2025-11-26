@@ -1,4 +1,4 @@
-import { Item } from '@library-system/shared';
+import { Item } from '../../../../shared';
 import ItemRepository from '../repositories/itemRepository';
 
 export default class BookService {
